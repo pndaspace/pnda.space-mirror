@@ -1,0 +1,55 @@
+@import "../../index.scss";
+
+.sidebar {
+	flex-grow: 1;
+	max-width: 20ch;
+	margin-right: 24px;
+}
+
+.sidebar, .content{
+	display: flex;
+	flex-direction: column;
+	min-height: 500px;
+}
+
+.player {
+	margin-bottom: 1em;
+}
+
+.sidebar-logo {
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.sidebar-logo:hover {
+	background-color: $color-background;
+	font-weight: bold;
+}
+
+.selected {
+	color: $color-background !important;
+}
+
+.selected.cyan {
+	background-color: $color-cyan;
+}
+
+.selected.green {
+	background-color: $color-green;
+}
+
+.selected.orange {
+	background-color: $color-orange;
+}
+
+.selected.pink {
+	background-color: $color-pink;
+}
+
+.selected.purple {
+	background-color: $color-purple;
+}
+
+.selected.red {
+	background-color: $color-red;
+}

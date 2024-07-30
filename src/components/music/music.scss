@@ -1,0 +1,18 @@
+@import "../../index.scss";
+
+$release-width: 16ch;
+
+.release-image {
+	max-width: $release-width;
+}
+
+.release-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax($release-width, 1fr));
+	gap: 0;
+}
+
+.release {
+	width: $release-width;
+	margin-bottom: $font-size;
+}

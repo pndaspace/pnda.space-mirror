@@ -1,0 +1,71 @@
+// Colors
+$color-background: #282a36;
+$color-current-line: #44475a;
+$color-foreground: #f8f8f2;
+$color-comment: #6272a4;
+$color-cyan: #8be9fd;
+$color-green: #50fa7b;
+$color-orange: #ffb86c;
+$color-pink: #ff79c6;
+$color-purple: #bd93f9;
+$color-red: #ff5555;
+$color-yellow: #f1fa8c;
+
+// Fonts
+$font-size: 18px;
+
+// Widths
+$min-content-width: 50ch;
+
+// Global styles
+html {
+	margin: auto;
+	font-size: $font-size;
+	font-family: "JetBrains Mono";
+}
+
+body {
+	background-color: $color-background;
+	color: $color-foreground;
+}
+
+a {
+	color: $color-comment;
+}
+
+a:hover {
+	background-color: $color-comment;
+	color: $color-background;
+}
+
+pre {
+	margin: 0px;
+}
+
+.pink {
+	color: $color-pink;
+}
+
+.cyan {
+	color: $color-cyan;
+}
+
+.green {
+	color: $color-green;
+}
+
+.white {
+	color: $color-foreground
+}
+
+.orange {
+	color: $color-orange
+}
+
+.red {
+	color: $color-red;
+}
+
+.purple {
+	color: $color-purple
+}

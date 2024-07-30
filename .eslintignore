@@ -1,0 +1,6 @@
+node_modules/
+build/
+dist/
+!/src/
+eslint.config.mjs
+webpack.config.js

@@ -1,0 +1,26 @@
+@import "../../index.scss";
+
+.layout {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	flex-grow: 1;
+	min-width: $min-content-width;
+}
+
+.content-block {
+	max-width: 70ch;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highlight {
+	color: cyan;
+	font-style: italic;
+}
+
+.logo-container {
+	text-align: center;
+}
