@@ -3,10 +3,13 @@
 $project-width: 25ch;
 
 .project-image {
-	object-fit: cover;
+	object-position: center;
+	height: 100%;
 	width: 100%;
 	min-height: $font-size * 5;
 	display: block;
+	object-fit: scale-down;
+	background-color: $color-current-line;
 }
 
 .project-grid {
@@ -18,10 +21,10 @@ $project-width: 25ch;
 .project {
 	width: $project-width;
 	margin-bottom: $font-size;
+	height: $font-size * 8;
 	overflow: hidden;
 	position: relative;
 }
-
 
 .overlay {
 	position: absolute;

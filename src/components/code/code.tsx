@@ -6,9 +6,9 @@ const Code: FC = () => {
 	return (
 		<>
 			<p>
-				Here are some small hobby projects I have been working on. I mainly work with React 
-				for web projects. For my Linux stuff I mainly use C and POSIX shell scripts. I 
-				currently use C#/.NET for my day job.
+				Here are some small hobby projects I have been working on. For my Linux stuff I 
+				mostly use C and POSIX shell scripts. I work with TypeScript, React and C#/.NET for 
+				my day job.
 			</p>
 			<div className='project-grid'>
 				<Project
