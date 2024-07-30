@@ -10,7 +10,7 @@ const Home: FC = () => (
 			&quot;professional&quot; <span className="highlight">web developer</span>, 
 			hobbyist <span className="highlight">musician</span>, and {' '}
 			<span className="highlight">Linux dork</span>. I make jungle/dnb tunes under my 
-			pseudonym <Link to='music'>collarbone</Link>.
+			pseudonym <Link to='/music'>collarbone</Link>.
 		</p>
 		<p>
 			You can find my <span className="highlight">words</span> on my {' '}

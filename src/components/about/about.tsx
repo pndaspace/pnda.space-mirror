@@ -21,7 +21,7 @@ const About: FC = () => (
 		<ListItem>Coffee</ListItem>
 		<p>
             I release <span className='highlight'>music</span> under {' '}
-			<Link to="music">collarbone</Link>. Typically these tracks are {' '} 
+			<Link to="/music">collarbone</Link>. Typically these tracks are {' '} 
 			<span className='highlight'>jungle</span>/<span className='highlight'>dnb</span> tunes 
             but I also love experementing with new sounds - I love chopping breaks in fun ways and
             making interesting soundscapes. I also play <span className='highlight'>bass</span>, 
@@ -48,7 +48,7 @@ const About: FC = () => (
 			<span className='highlight'>BBS</span> - obviously this site is far heavier than what 
             is possible on both. I think a personal site can be a wonderful way of expressing
             yourself to the world, and I&apos;d love to see more people get into it. I have a {' '} 
-			<Link to='links'>links</Link> page where I have some of my aesthetic inspirations that
+			<Link to='/links'>links</Link> page where I have some of my aesthetic inspirations that
             you may be interested in checking out :). 
 		</p>
 		<p>
