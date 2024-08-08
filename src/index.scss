@@ -22,11 +22,14 @@ html {
 	margin: auto;
 	font-size: $font-size;
 	font-family: "JetBrains Mono";
+	height: 100vh;
 }
 
 body {
 	background-color: $color-background;
 	color: $color-foreground;
+	height: 100%;
+	margin: 0;
 }
 
 a {
