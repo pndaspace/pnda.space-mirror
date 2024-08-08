@@ -88,6 +88,12 @@ const Links: FC = () => (
 		>
 			soup3461
 		</ListItem>
+		<ListItem
+			link="https://otakuworld.com/toys/icons.html"
+			subtext='Site unchanged since the 90s, a lot of software here still works on Windows'
+		>
+			Giniko-Chan&apos;s Icons and Cursors	
+		</ListItem>
 		<h1>Web Comics</h1>
 		<ListItem
 			link="https://lamezone.net/"
@@ -248,7 +254,7 @@ const Links: FC = () => (
 			link="https://www.youtube.com/@hhhazel"
 			subtext='Exploring anime, japanese media, and other stuff'
 		>
-			hazel (from anime)
+			hazel
 		</ListItem>
 		<ListItem
 			link="https://www.youtube.com/@ActionButton"
