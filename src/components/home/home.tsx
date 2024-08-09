@@ -31,7 +31,7 @@ const Home: FC = () => (
 		<iframe 
 			id="bucket-webring" 
 			className='webring'
-			src="https://webring.bucketfish.me/embed.html?name=your name"
+			src="https://webring.bucketfish.me/embed.html?name=pnda.space"
 		></iframe> 
 	</>
 );
