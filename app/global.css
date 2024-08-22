@@ -1,0 +1,94 @@
+:root {
+	/* Fonts */
+	--fontSize: 18px;
+	
+	/* Sizing */
+	--minContentWidth: 50ch;
+	--sidebarWidth: 20ch;
+
+	/* Colors */
+	--background: #282a36;
+	--currentLine: #44475a;
+	--foreground: #f8f8f2;
+	--comment: #6272a4;
+	--cyan: #8be9fd;
+	--green: #50fa7b;
+	--orange: #ffb86c;
+	--pink: #ff79c6;
+	--purple: #bd93f9;
+	--red: #ff5555;
+	--yellow: #f1fa8c;
+
+	--accentColor: var(--pink);
+}
+
+/* Color classes */
+.background {
+	color: var(--background);
+}
+
+.curentLine {
+	color: var(--currentLine);
+}
+
+.foreground {
+	color: var(--foreground);
+}
+
+.comment {
+	color: var(--comment);
+}
+
+.cyan {
+	color: var(--cyan);
+}
+
+.green {
+	color: var(--green);
+}
+
+.orange {
+	color: var(--orange);
+}
+
+.pink {
+	color: var(--pink);
+}
+
+.purple {
+	color: var(--purple);
+}
+
+.red {
+	color: var(--red);
+}
+
+.yellow {
+	color: var(--yellow);
+}
+
+html {
+	margin: auto;
+	font-size: var(--fontSize);
+	height: 100vh;
+}
+
+body {
+	background-color: var(--background);
+	color: var(--foreground);
+	height: 100%;
+	margin: 0;
+}
+
+a {
+	color: var(--comment);
+}
+
+a:hover {
+	background-color:  var(--comment);
+	color: var(--background);
+}
+
+pre {
+	margin: 0;
+}
