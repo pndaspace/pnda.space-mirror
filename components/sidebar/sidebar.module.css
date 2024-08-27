@@ -4,7 +4,7 @@
 	margin-right: 24px;;
 }
 
-.content {
+.sidebar, .content {
 	display: flex;
 	flex-direction: column;
 	min-height: 500px;
@@ -37,7 +37,6 @@
 }
 
 .ticker {
-	text-align: center;
 	white-space: nowrap;
 	display: inline-flex;
 	animation: ticker 5s linear infinite;
