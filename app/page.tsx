@@ -1,5 +1,9 @@
-export default function Home() {
+import getHtmlFromMd from '@/utils/get-html-from-md';
+
+export default async function Home() {
+    const pageContent = await getHtmlFromMd('./page-content/home.md');
+
     return (
-        <span>test</span>
+        <div dangerouslySetInnerHTML={{ __html: pageContent }} />
     );
 }

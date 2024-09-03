@@ -18,3 +18,7 @@
 	flex-direction: column;
 	height: 100%;
 }
+
+.logoContainer {
+    height: 5 * var(--fontSize);
+}

@@ -23,7 +23,9 @@ export default function RootLayout({ children }: Readonly<RootLayoutProperties>)
                 <div className={styles.layout}>
                     <Sidebar />
                     <div className={styles.content}>
-                        <Logo />
+                        <div className={styles.logoContainer}>
+                            <Logo />
+                        </div>
                         <div className={styles.contentBlock}>{children}</div>
                     </div>
                 </div>
