@@ -1,19 +1,17 @@
-import rehypeDocument from 'rehype-document';
-import rehypeFormat from 'rehype-format';
-import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
+import remarkDirective from 'remark-directive';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
+import remarkClassDirective from 'remark-class-directive';
 import { read } from 'to-vfile';
 import { unified } from 'unified';
 
 export default async function getHtmlFromMd(path: string) {
     const processedContent = await unified()
         .use(remarkParse)
-        .use(remarkRehype, { allowDangerousHtml: true })
-        .use(rehypeRaw)
-        .use(rehypeDocument)
-        .use(rehypeFormat)
+        .use(remarkDirective)
+        .use(remarkClassDirective)
+        .use(remarkRehype)
         .use(rehypeStringify)
         .process(await read(path));
 

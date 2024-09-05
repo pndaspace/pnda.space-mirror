@@ -18,8 +18,6 @@
 	--purple: #bd93f9;
 	--red: #ff5555;
 	--yellow: #f1fa8c;
-
-	--accentColor: var(--pink);
 }
 
 /* Color classes */
@@ -31,95 +29,59 @@
 	color: var(--currentLine);
 }
 
-.currentLine-invert {
-    background-color: var(--currentLine);
-    color: var(--background);
-}
-
 .foreground {
 	color: var(--foreground);
-}
-
-.foreground-invert {
-    background-color: var(--foreground);
-    color: var(--background);
 }
 
 .comment {
 	color: var(--comment);
 }
 
-.comment-invert {
-    background-color: var(--comment);
-    color: var(--background);
-}
-
 .cyan {
 	color: var(--cyan);
-}
-
-.cyan-invert {
-    background-color: var(--cyan);
-    color: var(--background);
 }
 
 .green {
 	color: var(--green);
 }
 
-.green-invert {
-    background-color: var(--green);
-    color: var(--background);
-}
-
 .orange {
 	color: var(--orange);
-}
-
-.orange-invert {
-    background-color: var(--orange);
-    color: var(--background);
 }
 
 .pink {
 	color: var(--pink);
 }
 
-.pink-invert {
-    background-color: var(--pink);
-    color: var(--background);
-}
-
 .purple {
 	color: var(--purple);
-}
-
-.purple-invert {
-    background-color: var(--purple);
-    color: var(--background);
 }
 
 .red {
 	color: var(--red);
 }
 
-.red-invert {
-    background-color: var(--red);
-    color: var(--background);
-}
-
 .yellow {
 	color: var(--yellow);
-}
-
-.yellow-invert {
-    background-color: var(--yellow);
-    color: var(--background);
 }
 
 .highlight {
 	color: cyan;
 	font-style: italic;
+}
+
+.pronouns {
+    background: -webkit-linear-gradient(
+        left,
+        var(--cyan),
+        var(--pink),
+        var(--foreground),
+        var(--pink),
+        var(--cyan)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Global element styles */
