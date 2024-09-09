@@ -38,4 +38,5 @@ The sick *:class{.highlight}ASCII art* text uses samurlwechtrom's
 [Elite](https://github.com/xero/figlet-fonts/blob/master/Elite.flf) Figlet font. I use
 [Dracula](https://draculatheme.com/) for my site's theming and generate my page/blog content from
 Markdown with [remark](https://github.com/remarkjs/remark) and
-[rehype](https://github.com/rehypejs/rehype).
+[rehype](https://github.com/rehypejs/rehype). Music stuff is fetched via the
+[Spotify API](https://developer.spotify.com/documentation/web-api).
