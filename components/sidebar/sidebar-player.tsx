@@ -26,7 +26,7 @@ export default function SidebarPlayer() {
                 YT
             </a>
             -
-            <a href="https://music.apple.com/gb/artist/collarbone/" className="white">AM</a>
+            <a href="https://music.apple.com/gb/artist/collarbone/" className="foreground">AM</a>
             &nbsp;&nbsp;&nbsp;
         </div>
     );

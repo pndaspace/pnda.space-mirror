@@ -1,4 +1,4 @@
-Hey you! You've found my little space on the net ㄟ(≧◇≦)ㄏ
+Hey you! You've found my little space on the net! ㄟ(≧◇≦)ㄏ
 
 I'm **:class{.pink}Holly** (**:class{.pronouns}she/her**), Im a "professional" 
 *:class{.highlight}web developer*, hobbyist *:class{.highlight}musician*, and 
