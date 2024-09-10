@@ -1,0 +1,38 @@
+[
+    {
+        "name": "SLLUUUDGE",
+        "year": 2024,
+        "soundCloud": "https://soundcloud.com/goophouse/collarbone-slluuudge",
+        "image": "slluuudge.jpg"
+    },
+    {
+        "name": "Altima",
+        "year": 2024,
+        "soundCloud": "https://soundcloud.com/collarbone1/altima",
+        "image": "altima.jpg"
+    },
+    {
+        "name": "Pink Lemonade",
+        "year": 2024,
+        "soundCloud": "https://soundcloud.com/collarbone1/pink-lemonade",
+        "image": "pink-lemonade.jpg"
+    },
+    {
+        "name": "Morning Fields",
+        "year": 2024,
+        "soundCloud": "https://soundcloud.com/collarbone1/morning-fields",
+        "image": "morning-fields.jpg"
+    },
+    {
+        "name": "summertime",
+        "year": 2024,
+        "soundCloud": "https://soundcloud.com/collarbone1/summertime",
+        "image": "summertime.jpg"
+    },
+    {
+        "name": "mima",
+        "year": 2023,
+        "soundCloud": "https://soundcloud.com/collarbone1/mima",
+        "image": "mima.jpg"
+    }
+]

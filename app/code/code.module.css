@@ -1,0 +1,11 @@
+.projectGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(var(--projectWidth), 1fr));
+	gap: 0;
+}
+
+.projectContainer {
+	width: var(--projectWidth);
+	margin-bottom: var(--fontSize);
+	position: relative;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "roundy-fish",
+        "image": "roundy-fish.png",
+        "link": "https://codeberg.org/pndaspace/roundy-fish"
+    },
+    {
+        "name": "pnda.space",
+        "image": "pnda-space.png",
+        "link": "https://codeberg.org/pndaspace/pnda.space-next"
+    },
+    {
+        "name": "dwm-bar",
+        "image": "dwm-bar.png",
+        "link": "https://codeberg.org/pndaspace/dwm-bar"
+    },
+    {
+        "name": "lily58-aliens",
+        "image": "lily58-aliens.png",
+        "link": "https://codeberg.org/pndaspace/lily58-aliens"
+    },
+    {
+        "name": "nmenu",
+        "image": "nmenu.png",
+        "link": "https://codeberg.org/pndaspace/nmenu"
+    }
+]

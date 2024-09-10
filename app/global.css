@@ -3,8 +3,10 @@
 	--fontSize: 18px;
 	
 	/* Sizing */
-	--minContentWidth: 50ch;
+	--minContentWidth: ch;
 	--sidebarWidth: 20ch;
+    --releaseWidth: 16ch;
+    --projectWidth: 16ch;
 
 	/* Colors */
 	--background: #282a36;

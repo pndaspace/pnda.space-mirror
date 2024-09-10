@@ -9,39 +9,3 @@
 	flex-direction: column;
 	min-height: 500px;
 }
-
-.player {
-	margin-bottom: 1em;
-}
-
-/* Logo */
-.sidebarLogo {
-	margin-bottom: 1em;
-	text-decoration: none;
-}
-
-.sidebarLogo:hover {
-	background-color: var(--background);
-	font-weight: bold;
-}
-
-/* "Now playing" ticker */
-.tickerContainer {
-	width: var(--sidebarWidth);
-	overflow: hidden;
-}
-
-.ticker {
-	white-space: nowrap;
-	display: inline-flex;
-	animation: ticker 5s linear infinite;
-}
-
-@keyframes ticker {
-	0% { transform: translateX(0); }
-	10% { transform: translateX(0); }
-	45% { transform: translateX(calc(-100% + var(--sidebarWidth))); }
-	55% { transform: translateX(calc(-100% + var(--sidebarWidth))); }
-	90% { transform: translateX(0); }
-	100% { transform: translateX(0); }
-}

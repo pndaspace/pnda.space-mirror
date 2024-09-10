@@ -1,0 +1,9 @@
+.sidebarLogo {
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.sidebarLogo:hover {
+	background-color: var(--background);
+	font-weight: bold;
+}

@@ -1,4 +1,4 @@
-import styles from './sidebar.module.css';
+import styles from './sidebar-player.module.css';
 
 export default function SidebarPlayer() {
     return (

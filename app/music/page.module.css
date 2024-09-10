@@ -1,0 +1,11 @@
+.releasesGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(var(--releaseWidth), 1fr));
+	gap: 0;
+}
+
+.releaseContainer {
+    width: var(--releaseWidth);
+	margin-bottom: var(--fontSize);
+	position: relative;
+}

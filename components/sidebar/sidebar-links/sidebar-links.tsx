@@ -1,4 +1,4 @@
-import SidebarLink from './sidebar-link';
+import SidebarLink from '../sidebar-link/sidebar-link';
 
 export default function SidebarLinks() {
     return (

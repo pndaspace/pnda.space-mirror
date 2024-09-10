@@ -1,0 +1,23 @@
+.cover {
+    object-position: center;
+    min-height: var(--releaseWidth);
+    display: block;
+}
+
+.cover img {
+    position: relative !important;
+}
+
+.release {
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.release:hover .releaseTitle {
+    background-color: var(--orange);
+    color: var(--background);
+}
+
+.releaseTitle {
+	color: var(--orange);
+}
