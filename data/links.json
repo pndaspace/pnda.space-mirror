@@ -1,0 +1,367 @@
+[
+    {
+        "name": "Sites",
+        "links": [
+            {
+                "title": "MelonLand Project",
+                "link": "https://melonland.net/",
+                "description": "Web project and online arts community that celebrates homepages, virtual worlds, the world-wide-web"
+            },
+            {
+                "title": "Goop House",
+                "link": "https://goop.house/",
+                "description": "Community of musicians and artists, hosts 'Goop Week' where participants have 1 week to make a track based on a piece of art'"
+            },
+            {
+                "title": "musicForProgramming();",
+                "link": "https://musicforprogramming.net/",
+                "description": "ollection of chill electronic mixes on an ASCII-themed site"
+            },
+            {
+                "title": "The Yesterweb",
+                "link": "https://yesterweb.org/",
+                "description": "Sadly defunct indie web community with still valuable resources"
+            },
+            {
+                "title": "XXIIVV Webring",
+                "link": "https://webring.xxiivv.com/",
+                "description": "Webring for artists and developer personal sites"
+            },
+            {
+                "title": "smol.pub",
+                "link": "https://smol.pub/",
+                "description": "Tiny blogging service accessable via the Web, Gemini and Gopher"
+            },
+            {
+                "title": "Neocities",
+                "link": "https://neocities.org/",
+                "description": "Fun personal site builder"
+            },
+            {
+                "title": "maia crimew",
+                "link": "https://maia.crimew.gay/",
+                "description": "Investigative journalism and hacktivism"
+            },
+            {
+                "title": "McMansion Hell",
+                "link": "https://mcmansionhell.com/",
+                "description": "Architechture blog making examples out of the ugliest buildings"
+            },
+            {
+                "title": "cathode ray dude dot com",
+                "link": "https://gekk.info/",
+                "description": "Long-form articles on niche software and hardware. AKA Cathode Ray Dude on YoutTube"
+            },
+            {
+                "title": "Computers Are Bad",
+                "link": "https://computer.rip/",
+                "description": "Digital newsletter about fun computer stories"
+            },
+            {
+                "title": "oat.zone",
+                "link": "https://oat.zone/",
+                "description": "Fun Neofetch themed personal site"
+            },
+            {
+                "title": "88x31 Gif collection",
+                "link": "https://cyber.dabamos.de/88x31/",
+                "description": "Collection of those neat little buttons people have on their pages"
+            },
+            {
+                "title": "Giniko-Chan's Icons and Cursors",
+                "link": "https://otakuworld.com/toys/icons.html",
+                "description": "Relic of the 90s web, a lot of this software still runs on Windows today!"
+            }
+        ]
+    },
+    {
+        "name": "Web Comics",
+        "links": [
+            {
+                "title": "Lamezone",
+                "link": "https://lamezone.net/",
+                "description": "The works of Cate Wurtz - slice of life, comedy horror with an aggressive artstyle"
+            },
+            {
+                "title": "Drop-Out",
+                "link": "https://drop-out.webcomic.ws/",
+                "description": "CW: Suicicde, Drug use. Two young lovers on a road trip with a deeply troubling goal"
+            },
+            {
+                "title": "Heartstopper",
+                "link": "https://tapas.io/series/Heartstopper",
+                "description": "Story about two boys falling in love in an English grammar school"
+            }
+        ]
+    },
+    {
+        "name": "Music",
+        "links": [
+            {
+                "title": "Closed eye visuals",
+                "link": "https://closedeyevisuals2222.bandcamp.com/",
+                "description": "Experemental electronic music"
+            },
+            {
+                "title": "Sword II",
+                "link": "https://swordii.bandcamp.com",
+                "description": "Shoegaze/noise rock band"
+            },
+            {
+                "title": "Stereoma",
+                "link": "https://swordii.bandcamp.com",
+                "description": "Dreamy heartfelt music with pretty synths and guitar"
+            },
+            {
+                "title": "Peaer",
+                "link": "https://peaer.bandcamp.com/",
+                "description": "Slowcore/emo band"
+            },
+            {
+                "title": "Sadesper Record",
+                "link": "https://open.spotify.com/artist/1SqtMxQsvK2PLaOZFF64cE",
+                "description": "COTD offshoot. Experemental electronic and shoegaze"
+            },
+            {
+                "title": "Bloodslide",
+                "link": "https://bloodslide.bandcamp.com/album/bloodslide",
+                "description": "Experemental post-punk band"
+            },
+            {
+                "title": "downy",
+                "link": "https://www.downy-web.com/",
+                "description": "Japanese rock/emo band"
+            },
+            {
+                "title": "Guitar Fight from Fooly Cooly",
+                "link": "https://guitarfightfromfoolycooly.bandcamp.com/",
+                "description": "Fun emo band"
+            },
+            {
+                "title": "smiling broadly",
+                "link": "https://smilingbroadly.bandcamp.com",
+                "description": "Beautiful guitars with Vocalois accompanyment"
+            },
+            {
+                "title": "Heccra",
+                "link": "https://heccra.bandcamp.com/",
+                "description": "Emo/post hardcore band"
+            },
+            {
+                "title": "Palm",
+                "link": "https://palmnewyork.bandcamp.com/",
+                "description": "Experemental math rock"
+            },
+            {
+                "title": "ThorHighHeels",
+                "link": "https://thorhighheels.bandcamp.com/",
+                "description": "Hard hitting electronic bangers"
+            },
+            {
+                "title": "dreamstation",
+                "link": "https://dreamstationy2k.bandcamp.com",
+                "description": "Indie Jungle/DnB/Breakcore label"
+            }
+        ]
+    },
+    {
+        "name": "Games",
+        "links": [
+            {
+                "title": "Hypnospace Outlaw",
+                "link": "https://www.hypnospace.net/",
+                "description": "Puzzle/adventure game set in an alternate universe 90s internet"
+            },
+            {
+                "title": "Digital: A Love Story",
+                "link": "https://scoutshonour.com/digital/",
+                "description": "Mystery game set in 1988 via simulated BBSes"
+            },
+            {
+                "title": "Umurangi Generation",
+                "link": "https://www.umurangigeneration.com/",
+                "description": "Photography game in the pre-apocalypse with sick design and music"
+            },
+            {
+                "title": "VA-11 HALL-A",
+                "link": "https://waifubartending.com/",
+                "description": "Cyberpunk bartending visual novel"
+            },
+            {
+                "title": "CM-SS13",
+                "link": "https://cm-ss13.com/",
+                "description": "Combat and RP focused SS13 fork set in the Alien universe"
+            },
+            {
+                "title": "WORLD OF HORROR",
+                "link": "https://store.steampowered.com/app/913740/WORLD_OF_HORROR/",
+                "description": "Roguelite adventure game inspired by the art of Junji Ito"
+            },
+            {
+                "title": "Anthology of the Killer",
+                "link": "https://thecatamites.itch.io/anthology-of-the-killer",
+                "description": "Comedy/horror experience by thecatamites"
+            }
+        ]
+    },
+    {
+        "name": "Podcasts",
+        "links": [
+            {
+                "title": "insert credit",
+                "link": "https://insertcredit.com/",
+                "description": "Video game discussion show"
+            },
+            {
+                "title": "Popular Front",
+                "link": "https://http://popularfront.co/",
+                "description": "Independant conflict journalism"
+            },
+            {
+                "title": "Feddie Scum",
+                "link": "https://feddie-scum.com/",
+                "description": "TTRPG podcast set in Universal Century Gundam"
+            },
+            {
+                "title": "Well There's Your Problem",
+                "link": "https://wtyppod.podbean.com/",
+                "description": "Engineering disasters"
+            },
+            {
+                "title": "Podcast About List",
+                "link": "https://www.swagpoop.com/",
+                "description": "Comedy podcast"
+            }
+        ]
+    },
+    {
+        "name": "Videos",
+        "links": [
+            {
+                "title": "Kyle Landon",
+                "link": "https://www.youtube.com/@KyleTheLandon",
+                "description": "Creative music production videos"
+            },
+            {
+                "title": "hazel",
+                "link": "https://www.youtube.com/@hhhazel",
+                "description": "Anime and japanese media essays"
+            },
+            {
+                "title": "Action Button",
+                "link": "https://www.youtube.com/@ActionButton",
+                "description": "Long-form video game essays (but more than that)"
+            },
+            {
+                "title": "ThorHighHeels",
+                "link": "https://www.youtube.com/@thorhighheels",
+                "description": "Niche video game essays"
+            },
+            {
+                "title": "The Infinite Review",
+                "link": "https://www.youtube.com/@TheInfiniteReview",
+                "description": "Show about reviewing eveything"
+            },
+            {
+                "title": "Explode When Defeated",
+                "link": "https://www.youtube.com/@explodewhendefeated3996",
+                "description": "Essays about Tokusatsu media (Rest in peace)"
+            },
+            {
+                "title": "DEMENZA'S GATE",
+                "link": "https://www.youtube.com/@DEMENZASGATE/videos",
+                "description": "Video essays about art"
+            },
+            {
+                "title": "Pixel a Day",
+                "link": "https://www.youtube.com/@PixelaDay/",
+                "description": "Video game and art essays"
+            },
+            {
+                "title": "geno7",
+                "link": "https://www.youtube.com/@geno7_/videos",
+                "description": "Media essays"
+            },
+            {
+                "title": "Jacob Geller",
+                "link": "https://www.youtube.com/@JacobGeller",
+                "description": "Video game and art essays"
+            },
+            {
+                "title": "FLESH SIMULATOR",
+                "link": "https://www.youtube.com/@fleshsimulator",
+                "description": "Horror, history, and other stuff"
+            },
+            {
+                "title": "Accursed Farms",
+                "link": "https://www.youtube.com/@Accursed_Farms",
+                "description": "In-depth older video game essays"
+            },
+            {
+                "title": "maedotmkv",
+                "link": "https://www.youtube.com/@maedotmkv",
+                "description": "Super fun video game streams"
+            },
+            {
+                "title": "Kruggsmash",
+                "link": "https://www.youtube.com/@kruggsmash",
+                "description": "Illustrated Dwarf Fortress and other rogulike stories"
+            },
+            {
+                "title": "Pretzel",
+                "link": "https://www.youtube.com/@PretzelYT",
+                "description": "Exploring video game environments"
+            },
+            {
+                "title": "Ned Rush",
+                "link": "https://www.youtube.com/@NedRush",
+                "description": "Experemental/generative music production"
+            },
+            {
+                "title": "Bobby Fingers",
+                "link": "https://www.youtube.com/@bobbyfingers",
+                "description": "Sculpture and art videos"
+            },
+            {
+                "title": "intranetgirl",
+                "link": "https://www.youtube.com/@intr4",
+                "description": "Digital art videos with a y2k feel"
+            },
+            {
+                "title": "u m a m i",
+                "link": "https://www.youtube.com/@abstractdaddy",
+                "description": "Abstract animation"
+            },
+            {
+                "title": "f4mi",
+                "link": "https://www.youtube.com/@f4micom",
+                "description": "Tech/video game retrospectives"
+            },
+            {
+                "title": "Cathode Ray Dude",
+                "link": "https://www.youtube.com/@CathodeRayDude",
+                "description": "Long-form Videos about old tech and cameras"
+            },
+            {
+                "title": "Posy",
+                "link": "https://www.youtube.com/@PosyMusic",
+                "description": "Design, tech, and art videos"
+            },
+            {
+                "title": "Popular Front",
+                "link": "https://www.youtube.com/@PopularFront",
+                "description": "Independant on the ground documentaries"
+            },
+            {
+                "title": "Garbonzo Meatball",
+                "link": "https://www.youtube.com/@garbanzomeatball",
+                "description": "Sketch comedy with a home movie feel"
+            },
+            {
+                "title": "Home Planet",
+                "link": "https://www.youtube.com/@HomePlanetVideo",
+                "description": "Sketch comedy"
+            }
+        ]
+    }
+]
