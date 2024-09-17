@@ -1,0 +1,12 @@
+.date {
+    color: var(--purple);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.signature {
+    color: var(--pink);
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}

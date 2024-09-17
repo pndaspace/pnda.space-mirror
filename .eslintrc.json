@@ -15,6 +15,7 @@
         "@typescript-eslint/indent": "off",
         "import/no-extraneous-dependencies": "off",
         "react/no-danger": "off",
-        "quote-props": "off"
+        "quote-props": "off",
+        "import/no-named-as-default": "off"
 	}
 }

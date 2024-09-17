@@ -3,7 +3,6 @@
 	--fontSize: 18px;
 	
 	/* Sizing */
-	--minContentWidth: ch;
 	--sidebarWidth: 20ch;
     --releaseWidth: 16ch;
     --projectWidth: 16ch;
@@ -114,4 +113,9 @@ a:hover {
 
 pre {
 	margin: 0;
+}
+
+h1 {
+    font-size: calc(var(--fontSize) * 2);
+    margin: var(--fontSize);
 }

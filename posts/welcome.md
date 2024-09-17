@@ -1,5 +1,6 @@
 ---
 title: 'Welcome!!'
+description: 'Introduction to my blog'
 date: '2024-09-16'
 ---
 
@@ -11,5 +12,3 @@ and I wanted to focus more on the visuals anyway, so having static components is
 
 Anyway I have a bunch of ideas for stuff to write here so hopefully you'll be seeing that soon. Some
 new music too this week if all goes well :3
-
-- Holly

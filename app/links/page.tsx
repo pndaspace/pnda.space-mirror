@@ -1,5 +1,5 @@
 import { LinkSection } from '@/types/links-data';
-import getHtmlFromMd from '@/utils/get-html-from-md';
+import getHtmlFromMd from '@/lib/get-html-from-md';
 import { promises } from 'fs';
 
 export default async function Links() {
@@ -10,7 +10,7 @@ export default async function Links() {
 
     return (
         <>
-            <div dangerouslySetInnerHTML={{ __html: pageContent }} />
+            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
             {linkSections.map((linkSection) => {
                 const {
                     name,

@@ -34,3 +34,6 @@ next-env.d.ts
 
 # xo
 .xo.config.js
+
+# rss
+/public/rss.xml

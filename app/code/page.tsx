@@ -1,4 +1,4 @@
-import getHtmlFromMd from '@/utils/get-html-from-md';
+import getHtmlFromMd from '@/lib/get-html-from-md';
 import { promises } from 'fs';
 import { ProjectData } from '@/types/project-data';
 import Project from '@/components/project/project';
@@ -12,7 +12,7 @@ export default async function Code() {
 
     return (
         <>
-            <div dangerouslySetInnerHTML={{ __html: pageContent }} />
+            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
             <div className={styles.projectGrid}>
                 {projects.map((project) => {
                     const {

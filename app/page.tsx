@@ -1,5 +1,5 @@
 import Bucket from '@/components/webring/bucket';
-import getHtmlFromMd from '@/utils/get-html-from-md';
+import getHtmlFromMd from '@/lib/get-html-from-md';
 import styles from './home.module.css';
 
 export default async function Home() {
@@ -7,7 +7,7 @@ export default async function Home() {
 
     return (
         <div className={styles.container}>
-            <div dangerouslySetInnerHTML={{ __html: pageContent }} />
+            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
             <Bucket />
         </div>
     );

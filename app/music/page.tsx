@@ -1,6 +1,6 @@
 import Release from '@/components/release/release';
 import { ReleaseData } from '@/types/release-data';
-import getHtmlFromMd from '@/utils/get-html-from-md';
+import getHtmlFromMd from '@/lib/get-html-from-md';
 import { promises } from 'fs';
 import styles from './page.module.css';
 
@@ -12,7 +12,7 @@ export default async function Music() {
 
     return (
         <>
-            <div dangerouslySetInnerHTML={{ __html: pageContent }} />
+            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
             <div className={styles.releasesGrid}>
                 {releases.map((release) => {
                     const {

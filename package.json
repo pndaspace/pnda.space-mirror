@@ -20,6 +20,7 @@
 		"remark-directive": "^3.0.0",
 		"remark-parse": "^11.0.0",
 		"remark-rehype": "^11.1.0",
+		"rss": "^1.2.2",
 		"to-vfile": "^8.0.0",
 		"unified": "^11.0.5"
 	},
@@ -28,6 +29,7 @@
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
+		"@types/rss": "^0.0.32",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-next": "14.2.6",
 		"typescript": "^5"
