@@ -2,6 +2,8 @@ import Link from 'next/link';
 import getHtmlFromMd from '@/lib/get-html-from-md';
 import styles from './post.module.css';
 
+export const runtime = 'edge';
+
 export default async function Post({ params }: { params: { id: string; }; }) {
     const file = `${params.id}.md`;
     const pageContent = await getHtmlFromMd(`./posts/${file}`);
