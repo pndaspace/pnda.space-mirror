@@ -1,14 +1,21 @@
-import getHtmlFromMd from '@/lib/get-html-from-md';
 import Project from '@/components/project/project';
 import projects from '@/data/projects.json';
+import Highlight from '@/components/highlight';
+import Link from 'next/link';
 import styles from './code.module.css';
 
 export default async function Code() {
-    const pageContent = await getHtmlFromMd('/page-content/code.md');
-
     return (
         <>
-            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
+            <p>
+                Here are some small hobby projects I have been working on. For my Linux stuff I
+                mostly use <Highlight>C</Highlight> and <Highlight>POSIX shell</Highlight> scripts.
+                I work with <Highlight>Typescript</Highlight>, <Highlight>React</Highlight>, and
+                {' '}<Highlight>C#</Highlight> for my day job. My main repository host is on {' '}
+                <Link href="https://codeberg.org/pndaspace/">CodeBerg</Link>, and I have a secondary
+                {' '}<Link href="https://github.com/pndaspace">GitHub</Link> account for
+                contributing.
+            </p>
             <div className={styles.projectGrid}>
                 {projects.map((project) => {
                     const {

@@ -1,14 +1,20 @@
 import Release from '@/components/release/release';
-import getHtmlFromMd from '@/lib/get-html-from-md';
 import releases from '@/data/releases.json';
+import Highlight from '@/components/highlight';
 import styles from './page.module.css';
 
 export default async function Music() {
-    const pageContent = await getHtmlFromMd('/page-content/music.md');
-
     return (
-        <>
-            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
+        <div>
+            <p>
+                I release music under <Highlight>collarbone</Highlight>. Typically these tracks
+                fall under the <Highlight>jungle</Highlight>, <Highlight>DnB</Highlight>, or {' '}
+                <Highlight>breakcore</Highlight> genres - although I have released tunes that fall
+                outside of those classifications. I also play <Highlight>bass</Highlight>.
+            </p>
+            <p>
+                Here&apos;s some tunes I&apos;ve made:
+            </p>
             <div className={styles.releasesGrid}>
                 {releases.map((release) => {
                     const {
@@ -30,6 +36,6 @@ export default async function Music() {
                     );
                 })}
             </div>
-        </>
+        </div>
     );
 }

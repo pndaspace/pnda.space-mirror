@@ -1,12 +1,14 @@
-import getHtmlFromMd from '@/lib/get-html-from-md';
 import linkSections from '@/data/links.json';
 
 export default async function Links() {
-    const pageContent = await getHtmlFromMd('/page-content/links.md');
-
     return (
         <>
-            <div dangerouslySetInnerHTML={{ __html: pageContent.content }} />
+            <p>
+                Here are some neat things loosely related to this site/that I like that I think you
+                should check out! Always looking to expand this list with more stuff so please do
+                get in touch! I try to keep this list up to date with some lesser-known stuff that I
+                genuinley would like to get more attention :)
+            </p>
             {linkSections.map((linkSection) => {
                 const {
                     name,
