@@ -8,7 +8,7 @@ export default async function About() {
             <p>
                 I&apos;m <span className="pink">Holly</span>! I&apos;m a trans woman
                 (<span className="pronouns">she/her</span>), <Highlight>programmer</Highlight>, and
-                electronic <Highlight>musician</Highlight> from the UK. I also havea bunch of other
+                electronic <Highlight>musician</Highlight> from the UK. I also have a bunch of other
                 interests including:
             </p>
             <ul>
