@@ -26,7 +26,7 @@ export default async function Home() {
                     <Link href="/about">about</Link> page.
                 </p>
                 <p>
-                    You can <Highlight>get in touch</Highlight> with me on Discord at
+                    You can <Highlight>get in touch</Highlight> with me on Discord at {' '}
                     <Highlight>pnda.space</Highlight> or by email at {' '}
                     <Highlight>pnda at pnda dot space</Highlight>.
                 </p>
