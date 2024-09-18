@@ -1,12 +1,17 @@
-import { ProjectData } from '@/types/project-data';
 import Image from 'next/image';
 import styles from './project.module.css';
+
+type ProjectProperties = {
+    name: string,
+    image: string,
+    link: string,
+};
 
 export default function Project({
     name,
     image,
     link,
-}: ProjectData) {
+}: ProjectProperties) {
     return (
         <a href={link} target="_blank" rel="noreferrer" className={styles.project}>
             <div className={styles.projectImage}>

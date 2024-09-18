@@ -1,13 +1,19 @@
 import Image from 'next/image';
-import { ReleaseData } from '@/types/release-data';
 import styles from './release.module.css';
+
+type ReleaseProperties = {
+    soundCloud: string,
+    image: string,
+    name: string,
+    year: number,
+};
 
 export default function Release({
     soundCloud,
     image,
     name,
     year,
-}: ReleaseData) {
+}: ReleaseProperties) {
     return (
         <a href={soundCloud} target="_blank" rel="noreferrer" className={styles.release}>
             <div className={styles.cover}>
