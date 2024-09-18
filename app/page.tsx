@@ -11,7 +11,7 @@ export default async function Home() {
                     Hey you! You&apos;ve found my little space on the net! ㄟ(≧◇≦)ㄏ
                 </p>
                 <p>
-                    I&apos;m <b className="pink">Holly</b>
+                    I&apos;m <b className="pink">Holly</b> {' '}
                     (<span className="pronouns">she/her</span>), Im a &quot;professional&quot; {' '}
                     <Highlight>web developer</Highlight>, hobbyist <Highlight>musician</Highlight>,
                     and <Highlight>Linux dork</Highlight>. I make electronic music under my
