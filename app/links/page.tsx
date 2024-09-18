@@ -1,12 +1,8 @@
-import { LinkSection } from '@/types/links-data';
 import getHtmlFromMd from '@/lib/get-html-from-md';
-import { promises } from 'fs';
+import linkSections from '@/data/links.json';
 
 export default async function Links() {
-    const pageContent = await getHtmlFromMd('./page-content/links.md');
-
-    const file = await promises.readFile(`${process.cwd()}/data/links.json`, 'utf8');
-    const linkSections: LinkSection[] = JSON.parse(file);
+    const pageContent = await getHtmlFromMd('/page-content/links.md');
 
     return (
         <>

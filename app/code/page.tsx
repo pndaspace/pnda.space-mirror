@@ -1,14 +1,10 @@
 import getHtmlFromMd from '@/lib/get-html-from-md';
-import { promises } from 'fs';
-import { ProjectData } from '@/types/project-data';
 import Project from '@/components/project/project';
+import projects from '@/data/projects.json';
 import styles from './code.module.css';
 
 export default async function Code() {
-    const pageContent = await getHtmlFromMd('./page-content/code.md');
-
-    const file = await promises.readFile(`${process.cwd()}/data/projects.json`, 'utf8');
-    const projects: ProjectData[] = JSON.parse(file);
+    const pageContent = await getHtmlFromMd('/page-content/code.md');
 
     return (
         <>

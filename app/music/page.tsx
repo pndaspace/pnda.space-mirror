@@ -1,14 +1,10 @@
 import Release from '@/components/release/release';
-import { ReleaseData } from '@/types/release-data';
 import getHtmlFromMd from '@/lib/get-html-from-md';
-import { promises } from 'fs';
+import releases from '@/data/releases.json';
 import styles from './page.module.css';
 
 export default async function Music() {
-    const pageContent = await getHtmlFromMd('./page-content/music.md');
-
-    const file = await promises.readFile(`${process.cwd()}/data/releases.json`, 'utf8');
-    const releases: ReleaseData[] = JSON.parse(file);
+    const pageContent = await getHtmlFromMd('/page-content/music.md');
 
     return (
         <>

@@ -1,31 +1,33 @@
-import fs from 'fs';
-import path from 'path';
 import matter from 'gray-matter';
+import getSiteUrl from './get-site-url';
 
-export default function getBlogFeed() {
+export default async function getBlogFeed() {
     type PostMetaData = {
         title: string;
         date: string;
         description: string;
     };
 
-    const directory = path.join(process.cwd(), 'posts');
+    const siteUrl = `${getSiteUrl()}/posts`;
 
-    const fileNames = fs.readdirSync(directory);
-    const posts = fileNames.map((fileName) => {
-        const id = fileName.replace(/\.md$/, '');
-        const postPath = path.join(directory, fileName);
-        const contents = fs.readFileSync(postPath, 'utf8');
+    const fileNames = [
+        'welcome.md',
+    ];
+
+    const posts = await Promise.all(fileNames.map(async (fileName) => {
+        const filePath = `${siteUrl}/${fileName}`;
+        const response = await fetch(filePath);
+        const contents = await response.text();
         const matterResult = matter(contents);
         const metadata = matterResult.data as PostMetaData;
 
         return {
-            id,
+            id: fileName.replace(/\.md$/, ''),
             title: metadata.title,
             date: metadata.date,
             description: metadata.description,
         };
-    });
+    }));
 
     return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }

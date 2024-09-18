@@ -3,27 +3,27 @@ import remarkDirective from 'remark-directive';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import remarkClassDirective from 'remark-class-directive';
-import fs from 'fs';
 import { unified } from 'unified';
 import matter from 'gray-matter';
+import getSiteUrl from './get-site-url';
 
 export default async function getHtmlFromMd(path: string) {
-    // Read the markdown file
-    const file = fs.readFileSync(path, 'utf8');
+    const siteUrl = getSiteUrl();
 
-    // Use gray-matter to separate front matter from content
+    const response = await fetch(`${siteUrl}${path}`);
+
+    const file = await response.text();
+
     const { content, data } = matter(file);
 
-    // Process the markdown content to HTML
     const processedContent = await unified()
         .use(remarkParse)
         .use(remarkDirective)
         .use(remarkClassDirective)
         .use(remarkRehype)
         .use(rehypeStringify)
-        .process(content); // Pass only the content without front matter
+        .process(content);
 
-    // Convert the processed content to string (HTML)
     const htmlContent = processedContent.toString();
 
     return {

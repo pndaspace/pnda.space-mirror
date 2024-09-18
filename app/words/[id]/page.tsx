@@ -6,7 +6,7 @@ export const runtime = 'edge';
 
 export default async function Post({ params }: { params: { id: string; }; }) {
     const file = `${params.id}.md`;
-    const pageContent = await getHtmlFromMd(`./posts/${file}`);
+    const pageContent = await getHtmlFromMd(`/posts/${file}`);
 
     return (
         <>
