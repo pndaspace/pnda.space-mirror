@@ -54,7 +54,12 @@ export default async function About() {
                 {' '} library with the {' '}
                 <Link href="https://github.com/xero/figlet-fonts/blob/master/Elite.flf">Elite</Link>
                 {' '}Figlet font. I use <Link href="https://draculatheme.com/">Dracula</Link> for my
-                site&apos;s theming.
+                site&apos;s theming. Cursors are from {' '}
+                <Link href="https://otakuworld.com/index.html?/toys/preview/icons/sailormooncursors.html">Otaku World</Link>
+                {' '} and modified (poorly) by me. The cute kitty cat following the cursor was made
+                by <Link href="https://github.com/adryd325/oneko.js">adryd325</Link>, a JS port of
+                the <Link href="https://en.wikipedia.org/wiki/Neko_(software)">original</Link> {' '}
+                PC-9801 program by Kenji Gotoh.
             </p>
         </div>
     );
