@@ -19,7 +19,8 @@ export default async function Home() {
                 </p>
                 <p>
                     You can see me <Highlight>ramble</Highlight> on my {' '}
-                    <Link href="/words">blog</Link>, links to my <Highlight>music</Highlight> over
+                    <Link href="https://pndaspace.bearblog.dev/blog/" target="_blank">blog</Link>,
+                    links to my <Highlight>music</Highlight> over
                     {' '} <Link href="/music">here</Link>, and my <Highlight>code</Highlight> over
                     {' '} <Link href="/code">here</Link>. If you&apos;d like to know more about me
                     and {' '} <Highlight>this website</Highlight>, you can visit my {' '}
