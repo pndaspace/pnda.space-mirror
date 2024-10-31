@@ -6,6 +6,6 @@
 
 .releaseContainer {
     width: var(--releaseWidth);
-	margin-bottom: var(--fontSize);
+	margin-bottom: 23px;
 	position: relative;
 }

@@ -1,7 +1,7 @@
 .sidebar {
 	flex-grow: 1;
 	max-width: var(--sidebarWidth);
-	margin-right: 24px;;
+	margin-right: 23px;
 }
 
 .sidebar, .content {

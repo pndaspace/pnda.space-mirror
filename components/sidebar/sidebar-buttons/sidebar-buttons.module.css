@@ -1,0 +1,10 @@
+.sidebarButton {
+    height: 46px;
+    margin-right: 1ch;
+}
+
+.sidebarButtonsContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0;
+}

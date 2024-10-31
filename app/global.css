@@ -118,9 +118,13 @@ pre {
 
 h1 {
     font-size: calc(var(--fontSize) * 2);
-    margin: var(--fontSize);
+    margin: 23px;
 }
 
 a, button {
     cursor: url('/images/cursor/pointer.png'), pointer;
+}
+
+p {
+    margin: 23px 0px 23px 1ch;
 }

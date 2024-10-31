@@ -6,6 +6,6 @@
 
 .projectContainer {
 	width: var(--projectWidth);
-	margin-bottom: var(--fontSize);
+	margin-bottom: 23px;
 	position: relative;
 }

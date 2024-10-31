@@ -1,3 +1,4 @@
+import SidebarButtons from './sidebar-buttons/sidebar-buttons';
 import SidebarLinks from './sidebar-links/sidebar-links';
 import SidebarLogo from './sidebar-logo/sidebar-logo';
 import SidebarPlayer from './sidebar-player/sidebar-player';
@@ -9,6 +10,7 @@ export default function Sidebar() {
             <SidebarLogo />
             <SidebarPlayer />
             <SidebarLinks />
+            <SidebarButtons />
         </div>
     );
 }
