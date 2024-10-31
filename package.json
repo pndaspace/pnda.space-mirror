@@ -10,19 +10,10 @@
 	},
 	"dependencies": {
 		"eslint-config-airbnb-typescript": "^18.0.0",
-		"gray-matter": "^4.0.3",
 		"next": "14.2.6",
 		"react": "^18",
 		"react-ascii-text": "^0.0.4",
-		"react-dom": "^18",
-		"rehype-stringify": "^10.0.0",
-		"remark-class-directive": "^0.1.4",
-		"remark-directive": "^3.0.0",
-		"remark-parse": "^11.0.0",
-		"remark-rehype": "^11.1.0",
-		"rss": "^1.2.2",
-		"to-vfile": "^8.0.0",
-		"unified": "^11.0.5"
+		"react-dom": "^18"
 	},
 	"devDependencies": {
 		"@next/eslint-plugin-next": "^14.2.6",
