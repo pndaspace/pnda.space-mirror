@@ -8,7 +8,7 @@ import styles from './logo.module.css';
 export default function Logo() {
     const logo = useAsciiText({
         font: elite,
-        text: 'pnda!',
+        text: 'pnda.space!',
         animationLoop: false,
         fadeInOnly: true,
     });
