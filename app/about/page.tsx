@@ -56,7 +56,7 @@ export default async function About() {
                 {' '}Figlet font. I use <Link href="https://draculatheme.com/">Dracula</Link> for my
                 dark theme and <Link href="https://horizontheme.netlify.app/">Horizon</Link> for my
                 light theme. (fun fact these affect <Highlight>everything</Highlight> on the site,
-                including the logo and cursor trails! Cursors are from {' '}
+                including the logo and cursor trails!) Cursors are from {' '}
                 <Link href="https://otakuworld.com/index.html?/toys/preview/icons/sailormooncursors.html">Otaku World</Link>
                 {' '} and modified (poorly) by me. The cute kitty cat following the cursor was made
                 by <Link href="https://github.com/adryd325/oneko.js">adryd325</Link>, a JS port of
