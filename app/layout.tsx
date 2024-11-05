@@ -5,7 +5,10 @@ import './global.css';
 import Sidebar from '@/components/sidebar/sidebar';
 import Logo from '@/components/logo/logo';
 import Script from 'next/script';
+import dynamic from 'next/dynamic';
 import styles from './layout.module.css';
+
+const CursorEffect = dynamic(() => import('@/components/cursor-effect/cursor-effect'));
 
 const font = jetBrainsMono({ subsets: ['latin'] });
 
@@ -22,7 +25,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProperties>)
         <html lang="en">
             <body className={font.className}>
                 <Script src="scripts/oneko.js" strategy="lazyOnload" />
-                <div className={styles.layout}>
+                <div className={styles.layout} id="cursorEffect">
                     <Sidebar />
                     <div className={styles.content}>
                         <div className={styles.logoContainer}>
@@ -31,6 +34,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProperties>)
                         <div className={styles.contentBlock}>{children}</div>
                     </div>
                 </div>
+                <CursorEffect />
             </body>
         </html>
     );
