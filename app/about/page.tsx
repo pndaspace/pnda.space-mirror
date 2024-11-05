@@ -60,7 +60,7 @@ export default async function About() {
                 {' '} and modified (poorly) by me. The cute kitty cat following the cursor was made
                 by <Link href="https://github.com/adryd325/oneko.js">adryd325</Link>, a JS port of
                 the <Link href="https://en.wikipedia.org/wiki/Neko_(software)">original</Link> {' '}
-                PC-9801 program by Kenji Gotoh. The cursor trail effect is modified from the
+                PC-9801 program by Kenji Gotoh. The cursor trail effect is modified from the {' '}
                 <Link href="https://github.com/tholman/cursor-effects">cursor-effects</Link> library
                 by tholman.
             </p>
