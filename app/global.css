@@ -22,17 +22,17 @@
 }
 
 [data-theme="light"] {
-    --background: #ffffff;
-	--currentLine: #e0e0e0;
-	--foreground: #000000;
-	--comment: #757575;
-	--cyan: #00bcd4;
-	--green: #4caf50;
-	--orange: #ff9800;
-	--pink: #e91e63;
-	--purple: #9c27b0;
-	--red: #f44336;
-	--yellow: #ffeb3b;
+    --background: #FDF0ED;
+	--currentLine: #F9CBBE;
+	--foreground: #16161C;
+	--comment: #1D8991;
+	--cyan: #1EAEAE;
+	--green: #3FDAA4;
+	--orange: #F77D26;
+	--pink: #F075B7;
+	--purple: #8931B9;
+	--red: #EC6A88;
+	--yellow: #FBC3A7;
 }
 
 /* Color classes */
@@ -81,7 +81,7 @@
 }
 
 .highlight {
-	color: cyan;
+	color: var(--cyan);
 	font-style: italic;
 }
 
