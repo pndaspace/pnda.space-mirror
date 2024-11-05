@@ -13,7 +13,7 @@ export default function ThemeToggle() {
 
     return (
         <a onClick={() => toggleTheme()} type="button" className={styles.themeToggle}>
-            {isLight ? '🌙 Go dark' : '☀️ Brighten up'}
+            {isLight ? '☾ Go dark' : '★ Brighten up'}
         </a>
     );
 }

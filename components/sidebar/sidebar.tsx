@@ -1,3 +1,4 @@
+import ThemeToggle from '../theme-toggle/theme-toggle';
 import SidebarButtons from './sidebar-buttons/sidebar-buttons';
 import SidebarLinks from './sidebar-links/sidebar-links';
 import SidebarLogo from './sidebar-logo/sidebar-logo';
@@ -9,6 +10,7 @@ export default function Sidebar() {
         <div className={styles.sidebar}>
             <SidebarLogo />
             <SidebarPlayer />
+            <ThemeToggle />
             <SidebarLinks />
             <SidebarButtons />
         </div>

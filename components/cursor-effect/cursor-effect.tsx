@@ -18,7 +18,7 @@ export default function CursorEffect() {
             element: document.getElementById('cursorEffect')!,
             font: '6px monospace',
             colors: ['#8be9fd', '#50fa7b', '#ffb86c', '#ff79c6', '#bd93f9', '#ff5555', '#f1fa8c'],
-            characters: ['☻', '♫', '♥', '❀', '☀', '☠', '☭'],
+            characters: ['☻', '♫', '♥', '❀', '☀', '☠', 'Ⓐ'],
             characterLifeSpanFunction: () => 120,
             initialCharacterVelocityFunction: initialCharacterVelocity,
         });
