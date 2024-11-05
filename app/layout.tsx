@@ -6,6 +6,7 @@ import Sidebar from '@/components/sidebar/sidebar';
 import Logo from '@/components/logo/logo';
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
+import ThemeToggle from '@/components/theme-toggle/theme-toggle';
 import styles from './layout.module.css';
 
 const CursorEffect = dynamic(() => import('@/components/cursor-effect/cursor-effect'));
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: Readonly<RootLayoutProperties>)
                         <div className={styles.logoContainer}>
                             <Logo />
                         </div>
+                        <ThemeToggle />
                         <div className={styles.contentBlock}>{children}</div>
                     </div>
                 </div>
