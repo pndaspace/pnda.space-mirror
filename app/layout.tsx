@@ -22,10 +22,10 @@ class RootLayoutProperties {
 
 export default function RootLayout({ children }: Readonly<RootLayoutProperties>) {
     return (
-        <html lang="en">
+        <html lang="en" id="cursorEffect">
             <body className={font.className}>
                 <Script src="scripts/oneko.js" strategy="lazyOnload" />
-                <div className={styles.layout} id="cursorEffect">
+                <div className={styles.layout}>
                     <Sidebar />
                     <div className={styles.content}>
                         <div className={styles.logoContainer}>
