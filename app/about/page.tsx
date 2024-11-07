@@ -63,7 +63,8 @@ export default async function About() {
                 the <Link href="https://en.wikipedia.org/wiki/Neko_(software)">original</Link> {' '}
                 PC-9801 program by Kenji Gotoh. The cursor trail effect is modified from the {' '}
                 <Link href="https://github.com/tholman/cursor-effects">cursor-effects</Link> library
-                by tholman.
+                by tholman. The CRT filter effect is achieved with pure CSS written by {' '}
+                <Link href="https://aleclownes.com/2017/02/01/crt-display.html">Alec Lownes</Link>.
             </p>
         </div>
     );
