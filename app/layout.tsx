@@ -22,7 +22,7 @@ class RootLayoutProperties {
 
 export default function RootLayout({ children }: Readonly<RootLayoutProperties>) {
     return (
-        <html lang="en" id="cursorEffect">
+        <html lang="en" id="cursorEffect" className={styles.crt}>
             <body className={font.className}>
                 <Script src="scripts/oneko.js" strategy="lazyOnload" />
                 <div className={styles.layout}>
