@@ -10,6 +10,11 @@ export default function SidebarButtons() {
                 alt="pnda.space"
             />
             <SidebarButton
+                fileName="miku.gif"
+                link="https://ooo.eeeee.ooo/"
+                alt="Miku approved"
+            />
+            <SidebarButton
                 fileName="internetarchive.gif"
                 link="https://www.battleforlibraries.com/"
                 alt="Internet Archive"
@@ -70,16 +75,6 @@ export default function SidebarButtons() {
                 alt="Bitwarden"
             />
             <SidebarButton
-                fileName="yumenikke.gif"
-                link="https://yume.wiki/yume/Yume_Nikki_Wiki"
-                alt="Yume Nikki"
-            />
-            <SidebarButton
-                fileName="blink.gif"
-                link="https://pnda.space"
-                alt="Blink"
-            />
-            <SidebarButton
                 fileName="gay.gif"
                 link="https://www.stonewall.org.uk/"
                 alt="Gay"
@@ -111,18 +106,13 @@ export default function SidebarButtons() {
             />
             <SidebarButton
                 fileName="legalize.gif"
-                link="https://pnda.space"
+                link="https://transformdrugs.org"
                 alt="Legalize it!"
             />
             <SidebarButton
                 fileName="mame.gif"
                 link="https://www.mamedev.org/"
                 alt="MAME"
-            />
-            <SidebarButton
-                fileName="miku.gif"
-                link="https://pnda.space"
-                alt="Miku approved"
             />
         </div>
     );
