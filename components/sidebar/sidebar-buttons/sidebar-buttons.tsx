@@ -5,11 +5,6 @@ export default function SidebarButtons() {
     return (
         <div className={styles.sidebarButtonsContainer}>
             <SidebarButton
-                fileName="pndaspace.png"
-                link="https://pnda.space"
-                alt="pnda.space"
-            />
-            <SidebarButton
                 fileName="miku.gif"
                 link="https://ooo.eeeee.ooo/"
                 alt="Miku approved"
@@ -70,11 +65,6 @@ export default function SidebarButtons() {
                 alt="88x31 GIFs"
             />
             <SidebarButton
-                fileName="bitwarden.gif"
-                link="https://bitwarden.com/"
-                alt="Bitwarden"
-            />
-            <SidebarButton
                 fileName="gay.gif"
                 link="https://www.stonewall.org.uk/"
                 alt="Gay"
@@ -98,16 +88,6 @@ export default function SidebarButtons() {
                 fileName="fuckgoogle.gif"
                 link="https://spreadprivacy.com/what-does-google-know-about-me/"
                 alt="Fuck Google"
-            />
-            <SidebarButton
-                fileName="gimp.gif"
-                link="https://www.gimp.org/"
-                alt="Gimp"
-            />
-            <SidebarButton
-                fileName="legalize.gif"
-                link="https://transformdrugs.org"
-                alt="Legalize it!"
             />
             <SidebarButton
                 fileName="mame.gif"

@@ -13,7 +13,7 @@ const CursorEffect = dynamic(() => import('@/components/cursor-effect/cursor-eff
 const font = jetBrainsMono({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'pnda.space ‧₊˚❀༉‧₊˚.',
+    title: 'collarbone.online ‧₊˚❀༉‧₊˚.',
 };
 
 class RootLayoutProperties {
